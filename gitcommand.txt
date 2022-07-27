@@ -11,6 +11,7 @@ Example = git init [repository name]
 Example = git clone [url]
 
 4. git add - This command adds a file to the staging area.
+          git add -A --all file at one command
 Example  = git add [file]
 
 5. git commit - This command records or snapshots the file permanently in the version history.
