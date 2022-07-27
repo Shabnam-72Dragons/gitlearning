@@ -1,0 +1,43 @@
+List of some Git commands 
+
+1. git config - This command sets the author name and email address respectively to be used with your commits.
+Example = git config –global user.name “[name]”
+          git config –global user.email “[email address]”
+
+2. git init - This command is used to start a new repository.
+Example = git init [repository name]
+
+3. git clone - This command is used to obtain a repository from an existing URL.
+Example = git clone [url]
+
+4. git add - This command adds a file to the staging area.
+Example  = git add [file]
+
+5. git commit - This command records or snapshots the file permanently in the version history.
+Example = git commit -m “[ Type in the commit message]”
+          git commit -a ( "This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then. " ).
+
+6. git diff - This command shows the file differences which are not yet staged.
+Example =  git diff –staged ("This command shows the differences between the files in the staging area and the latest version present.")
+
+7. git reset - This command unstages the file, but it preserves the file contents.
+Example = git reset [commit] ( " This command undoes all the commits after the specified commit and preserves the changes locally. ")
+
+
+8. git status - This command lists all the files that have to be committed.
+Example = git status
+
+9. git rm - This command deletes the file from your working directory and stages the deletion.
+
+10. git log - This command is used to list the version history for the current branch.
+
+11 git branch - This command lists all the local branches in the current repository.
+
+12. git push - This command sends the committed changes of master branch to your remote repository.
+
+13. git pull - This command fetches and merges changes on the remote server to your working directory.
+
+14. git stash - This command temporarily stores all the modified tracked files.
+Example  = git stash pop ( This command restores the most recently stashed files. ) 
+           git stash list ( This command lists all stashed changesets. )
+           git stash drop ( This command discards the most recently stashed changeset. )
